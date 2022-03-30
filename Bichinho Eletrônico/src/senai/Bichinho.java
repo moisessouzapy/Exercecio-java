@@ -8,21 +8,13 @@ package senai;
  *
  * @author moise
  */
-<<<<<<< HEAD
 public class Bichinho {
-=======
-public class Bichinho1 {
->>>>>>> 3949879e85c34532588100f20c9d33830f8e8523
     private String Nome;
     private int Idade;
     private int Fome = 100;
     private int Saude = 100;
     
-<<<<<<< HEAD
     public Bichinho(String nome, int idade){
-=======
-    public Bichinho1(String nome, int idade){
->>>>>>> 3949879e85c34532588100f20c9d33830f8e8523
         Nome = nome;
         Idade = idade;
     }
@@ -69,11 +61,11 @@ public class Bichinho1 {
     }
 }
     public void stats(){
-<<<<<<< HEAD
+
             System.out.println("a idade dele é: "+Idade);
-=======
+
             System.out.println("a idade dele é: "+ Idade);
->>>>>>> 3949879e85c34532588100f20c9d33830f8e8523
+
             System.out.println("o nome é: "+Nome);
             System.out.println("a fome é de: "+Fome);
             System.out.println("a saúde é de: "+Saude);
@@ -90,21 +82,14 @@ public class Bichinho1 {
         Saude = total;
     }
     public static void main(String[] args) {
-<<<<<<< HEAD
+
         Bichinho b1 = new Bichinho("ted",2);
-        b1.setSaude(10);
-        b1.setFome(10);
-        b1.setNome("bob");
-        b1.setIdade(10);
-        b1.alimentar(20);
-=======
-        Bichinho1 b1 = new Bichinho1("ted",2);
-        b1.setFome(50);
-        b1.setSaude(60);
+        b1.setFome(90);
+        b1.setSaude(70);
         b1.setNome("bob");
         b1.setIdade(10);
         b1.alimentar(10);
->>>>>>> 3949879e85c34532588100f20c9d33830f8e8523
+
         b1.brincar(2);
         b1.stats();
     }
