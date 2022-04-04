@@ -49,7 +49,7 @@ public class Combustivel {
         QuantidadeCombustivel -= litrosGastos;
         return litrosGastos;
     }
-    
+     
     public double abastecerPorLitro(double novoQntCombustivel){;
         QuantidadeCombustivel -= novoQntCombustivel;
         return novoQntCombustivel * valorLitro;

@@ -8,7 +8,7 @@ package senai;
  *
  * @author moise
  */
-public class heranca {
+public class Teste {
     public static void main(String[] args){
         Ingresso ingresso = new Ingresso();
         Normal normal = new Normal();

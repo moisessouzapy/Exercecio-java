@@ -16,4 +16,21 @@ public class Imovel {
        this.Endereço = endereco;
        this.Preco = preco;
     }
+
+    public String getEndereço() {
+        return Endereço;
+    }
+
+    public void setEndereço(String Endereço) {
+        this.Endereço = Endereço;
+    }
+
+    public double getPreco() {
+        return Preco;
+    }
+
+    public void setPreco(double Preco) {
+        this.Preco = Preco;
+    }
+    
 }
